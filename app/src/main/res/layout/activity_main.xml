@@ -24,7 +24,9 @@
             android:textColor="@color/black"
             android:textSize="24dp"
             android:textStyle="bold"
-            app:fontFamily="@font/allerta_stencil"></com.google.android.material.textview.MaterialTextView>
+            app:fontFamily="@font/allerta_stencil">
+
+        </com.google.android.material.textview.MaterialTextView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
@@ -63,7 +65,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="330dp"
-                android:text="Back"></com.google.android.material.button.MaterialButton>
+                android:text="Back">
+
+            </com.google.android.material.button.MaterialButton>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_next"
@@ -72,13 +76,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="260dp"
                 android:layout_marginTop="330dp"
-                android:text="Next"></com.google.android.material.button.MaterialButton>
+                android:text="Next">
+
+            </com.google.android.material.button.MaterialButton>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView2"
             android:layout_width="360dp"
-            android:layout_height="140dp"
+            android:layout_height="180dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:backgroundTint="@android:color/transparent"
@@ -86,14 +92,16 @@
 
             <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/textView_footer"
-                android:layout_width="204dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_width="350dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="30dp"
                 android:text="SOSTENIBILIDAD"
-                android:textAlignment="center"
+                android:layout_gravity="center"
                 android:textColor="@color/black"
-                android:textSize="16dp"
-                android:textStyle="bold"></com.google.android.material.textview.MaterialTextView>
+                android:textSize="14dp"
+                android:textStyle="bold">
+
+            </com.google.android.material.textview.MaterialTextView>
 
         </androidx.cardview.widget.CardView>
 
