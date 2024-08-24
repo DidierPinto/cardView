@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/biotecnologia"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="362dp"
+        android:layout_height="664dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="37dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/card_title"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="SOSTENIBILIDAD"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/allerta_stencil"></com.google.android.material.textview.MaterialTextView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@android:color/transparent"
+            app:cardCornerRadius="120dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="378dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Card View"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/allerta_stencil">
+
+            </com.google.android.material.textview.MaterialTextView>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="327dp"
+                android:layout_height="319dp"
+                android:layout_gravity="center"
+                android:src="@drawable/card">
+
+            </ImageView>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_back"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="330dp"
+                android:text="Back"></com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_next"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="260dp"
+                android:layout_marginTop="330dp"
+                android:text="Next"></com.google.android.material.button.MaterialButton>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="360dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@android:color/transparent"
+            app:cardCornerRadius="120dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textView_footer"
+                android:layout_width="204dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="SOSTENIBILIDAD"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"></com.google.android.material.textview.MaterialTextView>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
